@@ -6,36 +6,47 @@ package bkoruznjak.from.hr.parker.model;
 
 public class CarModel {
     private int mId;
+    private int mCarDrawable;
     private String mCarName;
     private String mCarLicensePlate;
 
-    public CarModel(int mId, String mCarName, String mCarLicensePlate) {
-        this.mId = mId;
-        this.mCarName = mCarName;
-        this.mCarLicensePlate = mCarLicensePlate;
+    public CarModel(int id, int carDrawable, String carName, String carLicensePlate) {
+        this.mId = id;
+        this.mCarDrawable = carDrawable;
+        this.mCarName = carName;
+        this.mCarLicensePlate = carLicensePlate;
     }
 
-    public int getmId() {
+    public int getId() {
         return mId;
     }
 
-    public void setmId(int mId) {
+    public void setId(int mId) {
         this.mId = mId;
     }
 
-    public String getmCarName() {
+    public int getCarDrawable() {
+        return mCarDrawable;
+    }
+
+    public void setCarDrawable(int mCarDrawable) {
+        this.mCarDrawable = mCarDrawable;
+    }
+
+    public String getCarName() {
         return mCarName;
     }
 
-    public void setmCarName(String mCarName) {
+    public void setCarName(String mCarName) {
         this.mCarName = mCarName;
     }
 
-    public String getmCarLicensePlate() {
+    public String getCarLicensePlate() {
         return mCarLicensePlate;
     }
 
-    public void setmCarLicensePlate(String mCarLicensePlate) {
+    public void setCarLicensePlate(String mCarLicensePlate) {
         this.mCarLicensePlate = mCarLicensePlate;
     }
+
 }
