@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Parker</string>
+    <string name="text_no_vehicles_found_in_app">Welcome to parker!  It appears You do not have any vehicles added. Please add your first vehicle now!</string>
 </resources>
